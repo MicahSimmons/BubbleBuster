@@ -1,0 +1,33 @@
+@font-face {
+  font-family: bubble;
+  src: url('../fonts/FreckleFace-Regular.ttf');
+  font-weight:400;
+  font-weight:normal;
+}
+.fontLoader {
+    position: absolute;
+    left: -1000px;
+    visibility: hidden;
+}
+
+body {
+  background: black;
+  color: aqua;
+}
+
+.game_container {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gamegrid {
+  width: 100%;
+  height: 100%;
+}
+
+.gamegrid canvas {
+  width: 100%;
+  height: 100%;
+  border: red 1px solid;
+}
